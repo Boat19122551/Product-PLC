@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="th" class="scroll-smooth">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>STP ENGINEERING SYSTEM CO., LTD. | Product PLC & Industrial Automation</title>
+<meta name="description" content="รับออกแบบ สร้าง ประกอบ ตู้คอนโทรลไฟฟ้า งาน Jig & Fixtures และระบบ PLC Automation โดย ทีมงานวิศวกร STP ENGINEERING SYSTEM บางเสาธง สมุทรปราการ">
+<link rel="canonical" href="https://stp-engineering-system.netlify.app/">
+
+<!-- Favicon & Colors -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 rx=%2714%27 fill=%27%23E8491A%27/%3E%3Ctext x=%2732%27 y=%2742%27 font-family=%27Arial,sans-serif%27 font-size=%2722%27 font-weight=%27800%27 fill=%27white%27 text-anchor=%27middle%27%3ESTP%3C/text%3E%3C/svg%3E">
+<meta name="theme-color" content="#E8491A">
+
+<!-- Open Graph (Facebook / LINE) -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="STP ENGINEERING SYSTEM CO., LTD.">
+<meta property="og:locale" content="th_TH">
+<meta property="og:title" content="STP ENGINEERING SYSTEM CO., LTD. | Product PLC & Industrial Automation">
+<meta property="og:description" content="บริการออกแบบ PLC, HMI, Jig & Fixtures และตู้คอนโทรลไฟฟ้า โดย STP ENGINEERING SYSTEM">
+<meta property="og:url" content="https://stp-engineering-system.netlify.app/">
+<meta property="og:image" content="https://stp-engineering-system.netlify.app/img/og-1200x630.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="STP ENGINEERING SYSTEM CO., LTD.">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- LocalBusiness Schema.org JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://stp-engineering-system.netlify.app/#business",
+  "name": "STP ENGINEERING SYSTEM CO., LTD.",
+  "alternateName": "บริษัท เอสทีพี เอ็นจิเนียริ่ง ซิสเต็มส์ จำกัด",
+  "description": "Engineer PLC Programmer & HMI Designer รับออกแบบ สร้าง ประกอบ ซ่อมบำรุงรักษา และติดตั้ง JIG FIXTURE เครื่องจักรกล ตู้คอนโทรลระบบไฟฟ้าอาคาร และตู้คอนโทรลควบคุมเครื่องจักร",
+  "url": "https://stp-engineering-system.netlify.app/",
+  "logo": "https://stp-engineering-system.netlify.app/img/logo-512.png",
+  "image": "https://stp-engineering-system.netlify.app/img/og-1200x630.jpg",
+  "telephone": ["+66-84-766-7361", "+66-97-015-2627"],
+  "vatID": "0115567014944",
+  "sameAs": ["https://line.me/ti/p/H2IRRuJENo"],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "118/57 หมู่ที่ 2",
+    "addressLocality": "บางเสาธง",
+    "addressRegion": "สมุทรปราการ",
+    "postalCode": "10570",
+    "addressCountry": "TH"
+  },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+    "opens": "08:00",
+    "closes": "17:00"
+  }]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+<style>
+*,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/*! tailwindcss v3.4.19 | MIT License | https://tailwindcss.com*/*,:after,:before{box-sizing:border-box;border:0 solid #e5e7eb}:after,:before{--tw-content:""}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;-o-tab-size:4;tab-size:4;font-family:Noto Sans Thai,system-ui,sans-serif;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{opacity:1;color:#9ca3af}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border-width:0}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.inset-0{inset:0}.left-3{left:.75rem}.top-0{top:0}.top-3{top:.75rem}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.-mt-4{margin-top:-1rem}.mb-1{margin-bottom:.25rem}.mb-2{margin-bottom:.5rem}.mb-3{margin-bottom:.75rem}.mb-4{margin-bottom:1rem}.mt-1{margin-top:.25rem}.mt-2{margin-top:.5rem}.mt-3{margin-top:.75rem}.mt-4{margin-top:1rem}.mt-6{margin-top:1.5rem}.mt-8{margin-top:2rem}.block{display:block}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.hidden{display:none}.aspect-\[16\/10\]{aspect-ratio:16/10}.h-3\.5{height:.875rem}.h-4{height:1rem}.h-5{height:1.25rem}.h-\[350px\]{height:350px}.h-full{height:100%}.min-h-\[44px\]{min-height:44px}.min-h-\[48px\]{min-height:48px}.min-h-screen{min-height:100vh}.w-3\.5{width:.875rem}.w-4{width:1rem}.w-5{width:1.25rem}.w-56{width:14rem}.w-fit{width:-moz-fit-content;width:fit-content}.w-full{width:100%}.w-max{width:-moz-max-content;width:max-content}.min-w-0{min-width:0}.max-w-2xl{max-width:42rem}.max-w-3xl{max-width:48rem}.max-w-4xl{max-width:56rem}.max-w-6xl{max-width:72rem}.shrink-0{flex-shrink:0}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}.grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-1{gap:.25rem}.gap-2{gap:.5rem}.gap-3{gap:.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.gap-8{gap:2rem}.space-y-2>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.5rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.5rem*var(--tw-space-y-reverse))}.space-y-4>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem*var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.overflow-x-auto{overflow-x:auto}.scroll-smooth{scroll-behavior:smooth}.rounded{border-radius:.25rem}.rounded-2xl{border-radius:1rem}.rounded-3xl{border-radius:1.5rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:.5rem}.rounded-xl{border-radius:.75rem}.border{border-width:1px}.border-0{border-width:0}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-brand{--tw-border-opacity:1;border-color:rgb(232 73 26/var(--tw-border-opacity,1))}.border-gray-100{--tw-border-opacity:1;border-color:rgb(243 244 246/var(--tw-border-opacity,1))}.border-gray-200{--tw-border-opacity:1;border-color:rgb(229 231 235/var(--tw-border-opacity,1))}.border-gray-300{--tw-border-opacity:1;border-color:rgb(209 213 219/var(--tw-border-opacity,1))}.border-white\/10{border-color:hsla(0,0%,100%,.1)}.border-white\/20{border-color:hsla(0,0%,100%,.2)}.bg-\[\#06C755\]{--tw-bg-opacity:1;background-color:rgb(6 199 85/var(--tw-bg-opacity,1))}.bg-brand{--tw-bg-opacity:1;background-color:rgb(232 73 26/var(--tw-bg-opacity,1))}.bg-brand-dark{--tw-bg-opacity:1;background-color:rgb(154 52 18/var(--tw-bg-opacity,1))}.bg-canvas{--tw-bg-opacity:1;background-color:rgb(255 247 230/var(--tw-bg-opacity,1))}.bg-gray-100{--tw-bg-opacity:1;background-color:rgb(243 244 246/var(--tw-bg-opacity,1))}.bg-gray-900{--tw-bg-opacity:1;background-color:rgb(17 24 39/var(--tw-bg-opacity,1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity,1))}.bg-white\/10{background-color:hsla(0,0%,100%,.1)}.bg-white\/20{background-color:hsla(0,0%,100%,.2)}.bg-white\/90{background-color:hsla(0,0%,100%,.9)}.fill-current{fill:currentColor}.object-cover{-o-object-fit:cover;object-fit:cover}.p-3{padding:.75rem}.p-5{padding:1.25rem}.p-6{padding:1.5rem}.px-2\.5{padding-left:.625rem;padding-right:.625rem}.px-3{padding-left:.75rem;padding-right:.75rem}.px-4{padding-left:1rem;padding-right:1rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.py-1{padding-top:.25rem;padding-bottom:.25rem}.py-10{padding-top:2.5rem;padding-bottom:2.5rem}.py-12{padding-top:3rem;padding-bottom:3rem}.py-2{padding-top:.5rem;padding-bottom:.5rem}.py-3{padding-top:.75rem;padding-bottom:.75rem}.py-6{padding-top:1.5rem;padding-bottom:1.5rem}.py-8{padding-top:2rem;padding-bottom:2rem}.pb-1{padding-bottom:.25rem}.pb-12{padding-bottom:3rem}.pt-10{padding-top:2.5rem}.pt-4{padding-top:1rem}.text-center{text-align:center}.font-sans{font-family:Noto Sans Thai,system-ui,sans-serif}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-5xl{font-size:3rem;line-height:1}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:.875rem;line-height:1.25rem}.text-xs{font-size:.75rem;line-height:1rem}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.not-italic{font-style:normal}.leading-none{line-height:1}.leading-relaxed{line-height:1.625}.leading-tight{line-height:1.25}.text-accent{--tw-text-opacity:1;color:rgb(255 224 138/var(--tw-text-opacity,1))}.text-amber-500{--tw-text-opacity:1;color:rgb(245 158 11/var(--tw-text-opacity,1))}.text-brand{--tw-text-opacity:1;color:rgb(232 73 26/var(--tw-text-opacity,1))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity,1))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99/var(--tw-text-opacity,1))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81/var(--tw-text-opacity,1))}.text-green-700{--tw-text-opacity:1;color:rgb(21 128 61/var(--tw-text-opacity,1))}.text-ink{--tw-text-opacity:1;color:rgb(17 24 39/var(--tw-text-opacity,1))}.text-orange-100{--tw-text-opacity:1;color:rgb(255 237 213/var(--tw-text-opacity,1))}.text-orange-50{--tw-text-opacity:1;color:rgb(255 247 237/var(--tw-text-opacity,1))}.text-red-600{--tw-text-opacity:1;color:rgb(220 38 38/var(--tw-text-opacity,1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity,1))}.underline{text-decoration-line:underline}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.shadow{--tw-shadow:0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px -1px rgba(0,0,0,.1);--tw-shadow-colored:0 1px 3px 0 var(--tw-shadow-color),0 1px 2px -1px var(--tw-shadow-color)}.shadow,.shadow-md{box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color),0 2px 4px -2px var(--tw-shadow-color)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgba(0,0,0,.1),0 8px 10px -6px rgba(0,0,0,.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color),0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.filter{filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.transition{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.duration-300{transition-duration:.3s}html{scroll-behavior:smooth}body{background-color:#f9702a;background-image:linear-gradient(180deg,#e8491a,#f9702a 35%,#ff9a2e 70%,#ffb347);background-repeat:no-repeat;background-size:100% 100%;min-height:100vh}.grid-pattern{background-image:linear-gradient(hsla(0,0%,100%,.06) 1px,transparent 0),linear-gradient(90deg,hsla(0,0%,100%,.06) 1px,transparent 0);background-size:36px 36px}.no-scrollbar::-webkit-scrollbar{display:none}.no-scrollbar{scrollbar-width:none}.hover\:-translate-y-1:hover{--tw-translate-y:-0.25rem}.hover\:-translate-y-1:hover,.hover\:scale-105:hover{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:scale-105:hover{--tw-scale-x:1.05;--tw-scale-y:1.05}.hover\:bg-black:hover{--tw-bg-opacity:1;background-color:rgb(0 0 0/var(--tw-bg-opacity,1))}.hover\:bg-brand:hover{--tw-bg-opacity:1;background-color:rgb(232 73 26/var(--tw-bg-opacity,1))}.hover\:bg-brand-dark:hover{--tw-bg-opacity:1;background-color:rgb(154 52 18/var(--tw-bg-opacity,1))}.hover\:bg-canvas:hover{--tw-bg-opacity:1;background-color:rgb(255 247 230/var(--tw-bg-opacity,1))}.hover\:bg-gray-100:hover{--tw-bg-opacity:1;background-color:rgb(243 244 246/var(--tw-bg-opacity,1))}.hover\:bg-white\/20:hover{background-color:hsla(0,0%,100%,.2)}.hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity,1))}.hover\:opacity-95:hover{opacity:.95}.hover\:underline:hover{text-decoration-line:underline}.hover\:shadow-xl:hover{--tw-shadow:0 20px 25px -5px rgba(0,0,0,.1),0 8px 10px -6px rgba(0,0,0,.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color),0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.focus\:not-sr-only:focus{position:static;width:auto;height:auto;padding:0;margin:0;overflow:visible;clip:auto;white-space:normal}.focus\:fixed:focus{position:fixed}.focus\:left-4:focus{left:1rem}.focus\:top-4:focus{top:1rem}.focus\:z-\[100\]:focus{z-index:100}.focus\:rounded-lg:focus{border-radius:.5rem}.focus\:border-brand:focus{--tw-border-opacity:1;border-color:rgb(232 73 26/var(--tw-border-opacity,1))}.focus\:bg-accent:focus{--tw-bg-opacity:1;background-color:rgb(255 224 138/var(--tw-bg-opacity,1))}.focus\:px-4:focus{padding-left:1rem;padding-right:1rem}.focus\:py-3:focus{padding-top:.75rem;padding-bottom:.75rem}.focus\:font-bold:focus{font-weight:700}.focus\:text-ink:focus{--tw-text-opacity:1;color:rgb(17 24 39/var(--tw-text-opacity,1))}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 #0000)}.focus\:ring-brand\/20:focus{--tw-ring-color:rgba(232,73,26,.2)}.disabled\:cursor-wait:disabled{cursor:wait}.disabled\:opacity-60:disabled{opacity:.6}@media (min-width:640px){.sm\:block{display:block}.sm\:grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}.sm\:flex-row{flex-direction:row}.sm\:items-center{align-items:center}.sm\:justify-between{justify-content:space-between}.sm\:p-6{padding:1.5rem}.sm\:p-8{padding:2rem}.sm\:text-3xl{font-size:1.875rem;line-height:2.25rem}.sm\:text-4xl{font-size:2.25rem;line-height:2.5rem}.sm\:text-lg{font-size:1.125rem;line-height:1.75rem}.sm\:text-xl{font-size:1.25rem;line-height:1.75rem}}@media (min-width:768px){.md\:col-span-2{grid-column:span 2/span 2}.md\:inline{display:inline}.md\:w-auto{width:auto}.md\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.md\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.md\:flex-row{flex-direction:row}.md\:items-end{align-items:flex-end}.md\:justify-between{justify-content:space-between}.md\:p-10{padding:2.5rem}.md\:p-8{padding:2rem}.md\:px-8{padding-left:2rem;padding-right:2rem}}@media (min-width:1024px){.lg\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.lg\:text-5xl{font-size:3rem;line-height:1}}
+</style>
+</head>
+
+<body class="text-ink font-sans antialiased">
+
+<!-- ===== SVG Icon Sprite ===== -->
+<svg xmlns="http://www.w3.org/2000/svg" class="hidden" aria-hidden="true">
+  <defs>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></symbol>
+    <symbol id="i-directions" viewBox="0 0 24 24"><polygon points="3 11 22 2 13 21 11 13 3 11"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></symbol>
+    <symbol id="i-factory" viewBox="0 0 24 24"><path d="M2 21h20M4 21V10l6 4v-4l6 4V5h4v16"/></symbol>
+    <symbol id="i-ext" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></symbol>
+  </defs>
+</svg>
+
+<a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-lg focus:bg-accent focus:px-4 focus:py-3 focus:font-bold focus:text-ink">ข้ามไปยังเนื้อหา</a>
+
+<!-- ===== Header ===== -->
+<header class="sticky top-0 z-50 border-b border-gray-200 bg-white shadow-md">
+  <div class="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-2">
+    <a href="#top" class="flex items-center gap-2">
+      <span class="text-3xl font-extrabold leading-none text-brand">STP</span>
+      <div class="hidden leading-tight sm:block">
+        <span class="block text-sm font-extrabold text-brand">STP ENGINEERING SYSTEM</span>
+        <span class="block text-xs font-medium text-gray-500">Industrial Automation &amp; Control Systems</span>
+      </div>
+    </a>
+    <nav class="flex items-center gap-2">
+      <a href="tel:0847667361" rel="nofollow" class="inline-flex min-h-[44px] items-center gap-2 rounded-lg bg-brand px-3 text-sm font-bold text-white hover:bg-brand-dark transition">
+        <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-phone"/></svg>
+        <span class="hidden md:inline">โทร 084-766-7361</span>
+      </a>
+      <a href="https://line.me/ti/p/H2IRRuJENo" target="_blank" rel="noopener noreferrer" class="inline-flex min-h-[44px] items-center gap-2 rounded-lg bg-[#06C755] px-3 text-sm font-bold text-white hover:opacity-95 transition">
+        <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-chat"/></svg>
+        <span>LINE</span>
+      </a>
+      <a href="#map" class="inline-flex min-h-[44px] items-center gap-2 rounded-lg border border-gray-200 bg-white px-3 text-sm font-bold text-brand hover:bg-canvas transition">
+        <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-pin"/></svg>
+        <span class="hidden md:inline">แผนที่</span>
+      </a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ===== Hero Section ===== -->
+<section id="top" class="relative overflow-hidden text-white">
+  <div class="grid-pattern absolute inset-0" aria-hidden="true"></div>
+  <div class="relative mx-auto max-w-6xl px-4 pb-12 pt-10">
+    <p class="mb-3 inline-flex items-center gap-2 rounded-full bg-white/20 px-3 py-1 text-sm font-bold text-white">
+      <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-factory"/></svg>
+      Engineer PLC Programmer &amp; HMI Designer
+    </p>
+    <h1 class="text-3xl font-extrabold leading-tight sm:text-4xl lg:text-5xl">
+      STP ENGINEERING SYSTEM CO., LTD.<br>
+      <span class="text-accent">ผลงานออกแบบ ติดตั้ง PLC &amp; ตู้คอนโทรล</span>
+    </h1>
+    <p class="mt-4 max-w-2xl text-base text-orange-50 sm:text-lg">
+      บริการออกแบบ สร้าง ประกอบ ซ่อมบำรุงรักษา และติดตั้ง JIG FIXTURE เครื่องจักรกล ตู้คอนโทรลระบบไฟฟ้าอาคาร และตู้คอนโทรลควบคุมเครื่องจักร โดยทีมงานวิศวกรผู้เชี่ยวชาญ
+    </p>
+
+    <!-- Brands Support -->
+    <div class="mt-6 border-t border-white/20 pt-4">
+      <p class="text-xs text-orange-100">รองรับแบรนด์มาตรฐานอุตสาหกรรม:</p>
+      <div class="mt-2 flex flex-wrap gap-2 text-xs font-bold text-ink">
+        <span class="rounded bg-white/90 px-2.5 py-1">MITSUBISHI ELECTRIC</span>
+        <span class="rounded bg-white/90 px-2.5 py-1">OMRON</span>
+        <span class="rounded bg-white/90 px-2.5 py-1">Fuji Electric</span>
+        <span class="rounded bg-white/90 px-2.5 py-1">Pro-face</span>
+        <span class="rounded bg-white/90 px-2.5 py-1">DELTA</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Google Business Profile Card ===== -->
+<section class="mx-auto -mt-4 max-w-3xl px-4">
+  <article class="rounded-2xl border border-gray-100 bg-white p-5 shadow-xl sm:p-6">
+    <div class="flex items-start gap-4">
+      <span class="shrink-0 text-3xl font-extrabold text-brand">STP</span>
+      <div class="min-w-0">
+        <h2 class="text-lg font-extrabold text-ink sm:text-xl">STP ENGINEERING SYSTEM CO., LTD.</h2>
+        <p class="mt-1 flex items-center gap-1 text-sm text-gray-600">
+          <span class="font-bold text-ink">5.0</span>
+          <span class="flex text-amber-500" role="img" aria-label="5 ดาว">
+            <svg class="h-4 w-4 fill-current"><use href="#i-star"/></svg><svg class="h-4 w-4 fill-current"><use href="#i-star"/></svg><svg class="h-4 w-4 fill-current"><use href="#i-star"/></svg><svg class="h-4 w-4 fill-current"><use href="#i-star"/></svg><svg class="h-4 w-4 fill-current"><use href="#i-star"/></svg>
+          </span>
+          <span>(1 Google Review)</span>
+        </p>
+        <p class="mt-1 flex items-center gap-1 text-sm text-gray-600">
+          <svg class="h-4 w-4 text-brand" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-pin"/></svg>
+          118/57 ม.2 ต.บางเสาธง อ.บางเสาธง จ.สมุทรปราการ 10570
+        </p>
+      </div>
+    </div>
+    <div class="mt-4 grid grid-cols-2 gap-2 sm:grid-cols-4">
+      <a href="https://www.google.com/maps/dir/?api=1&amp;destination=STP+ENGINEERING+SYSTEM+CO.,+LTD.+บางเสาธง+สมุทรปราการ" target="_blank" rel="noopener noreferrer" class="flex min-h-[48px] items-center justify-center gap-1 rounded-xl border border-gray-200 text-xs font-bold text-brand hover:bg-canvas transition">
+        <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-directions"/></svg>นำทาง
+      </a>
+      <a href="tel:0847667361" rel="nofollow" class="flex min-h-[48px] items-center justify-center gap-1 rounded-xl bg-brand text-xs font-bold text-white hover:bg-brand-dark transition">
+        <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-phone"/></svg>โทรทันที
+      </a>
+      <a href="https://line.me/ti/p/H2IRRuJENo" target="_blank" rel="noopener noreferrer" class="flex min-h-[48px] items-center justify-center gap-1 rounded-xl bg-[#06C755] text-xs font-bold text-white hover:opacity-95 transition">
+        <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-chat"/></svg>ส่งภาพประเมิน
+      </a>
+      <a href="#contact" class="flex min-h-[48px] items-center justify-center rounded-xl bg-gray-900 text-xs font-bold text-white hover:bg-black transition">ขอใบเสนอราคา</a>
+    </div>
+  </article>
+</section>
+
+<!-- ===== Portfolio Showcase Section ===== -->
+<section id="portfolio" class="mx-auto max-w-6xl px-4 py-10">
+  <div class="rounded-3xl bg-canvas p-5 shadow-xl sm:p-8">
+    <div class="flex flex-col md:flex-row md:items-end md:justify-between">
+      <div>
+        <h2 class="text-2xl font-extrabold text-ink sm:text-3xl">ประเภทงานที่เรารับ</h2>
+        <p class="mt-2 text-sm text-gray-600">ตัวอย่างงานบริการสำหรับโรงงานอุตสาหกรรม (ภาพประกอบ — ภาพผลงานจริงของบริษัทจะทยอยเพิ่มเติม)</p>
+      </div>
+    </div>
+
+    <!-- Category Tabs Filter -->
+    <div class="no-scrollbar mt-6 overflow-x-auto">
+      <div id="tabs" class="flex w-max gap-2 pb-1"></div>
+    </div>
+
+    <!-- Portfolio Grid -->
+    <div id="grid" class="mt-8 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3"></div>
+  </div>
+</section>
+
+<!-- ===== Contact & Quotation Form ===== -->
+<section id="contact" class="py-6">
+  <div class="mx-auto max-w-4xl px-4">
+    <div class="rounded-3xl bg-canvas p-6 shadow-xl md:p-8">
+      <h2 class="text-2xl font-extrabold text-ink sm:text-3xl">ขอใบเสนอราคา / ส่งรายละเอียดงาน</h2>
+      <p class="mt-1 text-sm text-gray-600">กรอกข้อมูลงานของคุณเพื่อให้วิศวกรประเมินราคาและติดต่อกลับโดยเร็วที่สุด</p>
+
+      <form id="quote-form" name="quote" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="mt-6 grid gap-4 md:grid-cols-2" novalidate>
+        <input type="hidden" name="form-name" value="quote">
+        <input type="hidden" name="subject" value="ขอใบเสนอราคาใหม่จากเว็บไซต์ STP (%{submissionId})">
+        
+        <!-- Anti-Spam Layer 1: Honeypot -->
+        <p class="hidden" aria-hidden="true">
+          <label>ห้ามกรอกช่องนี้เด็ดขาด: <input name="bot-field" tabindex="-1" autocomplete="off"></label>
+        </p>
+
+        <div>
+          <label for="f-name" class="mb-1 block text-sm font-bold">ชื่อผู้ติดต่อ <span class="text-red-600">*</span></label>
+          <input id="f-name" name="name" type="text" required maxlength="100" autocomplete="name" class="w-full rounded-lg border border-gray-300 bg-white p-3 focus:border-brand focus:outline-none focus:ring-2 focus:ring-brand/20">
+        </div>
+        <div>
+          <label for="f-phone" class="mb-1 block text-sm font-bold">เบอร์โทรศัพท์ <span class="text-red-600">*</span></label>
+          <input id="f-phone" name="phone" type="tel" required inputmode="tel" maxlength="20" autocomplete="tel" placeholder="เช่น 081-234-5678" class="w-full rounded-lg border border-gray-300 bg-white p-3 focus:border-brand focus:outline-none focus:ring-2 focus:ring-brand/20">
+        </div>
+        <div>
+          <label for="f-company" class="mb-1 block text-sm font-bold">ชื่อบริษัท / โรงงาน</label>
+          <input id="f-company" name="company" type="text" maxlength="150" autocomplete="organization" class="w-full rounded-lg border border-gray-300 bg-white p-3 focus:border-brand focus:outline-none focus:ring-2 focus:ring-brand/20">
+        </div>
+        <div>
+          <label for="f-email" class="mb-1 block text-sm font-bold">อีเมล</label>
+          <input id="f-email" name="email" type="email" maxlength="150" autocomplete="email" class="w-full rounded-lg border border-gray-300 bg-white p-3 focus:border-brand focus:outline-none focus:ring-2 focus:ring-brand/20">
+        </div>
+        <div class="md:col-span-2">
+          <label for="f-service" class="mb-1 block text-sm font-bold">บริการที่สนใจ</label>
+          <select id="f-service" name="service" class="w-full rounded-lg border border-gray-300 bg-white p-3 focus:border-brand focus:outline-none focus:ring-2 focus:ring-brand/20">
+            <option value="PLC Programming & HMI Design">PLC Programming &amp; HMI Design</option>
+            <option value="Jig & Fixture Design & Fabrication">Jig &amp; Fixture Design &amp; Fabrication</option>
+            <option value="Electrical Control Panel (ตู้ไฟควบคุมเครื่องจักร)">Electrical Control Panel (ตู้ไฟควบคุมเครื่องจักร)</option>
+            <option value="Building Electrical Panel (ตู้ไฟอาคาร)">Building Electrical Panel (ตู้ไฟอาคาร)</option>
+            <option value="Packaging Machinery & Packaging Systems">Packaging Machinery &amp; Packaging Systems</option>
+            <option value="ซ่อมบำรุง / ติดตั้ง / Modify ระบบเดิม">ซ่อมบำรุง / ติดตั้ง / Modify ระบบเดิม</option>
+          </select>
+        </div>
+        <div class="md:col-span-2">
+          <label for="f-details" class="mb-1 block text-sm font-bold">รายละเอียดโปรเจกต์ / สเปกงาน</label>
+          <textarea id="f-details" name="details" rows="4" maxlength="3000" placeholder="ระบุรายละเอียดงาน เช่น แบรนด์ PLC ที่ใช้, ขนาดตู้, อาการที่ต้องการแก้ไข..." class="w-full rounded-lg border border-gray-300 bg-white p-3 focus:border-brand focus:outline-none focus:ring-2 focus:ring-brand/20"></textarea>
+        </div>
+        <div class="md:col-span-2">
+          <p class="mb-3 text-xs text-gray-600">ข้อมูลที่คุณกรอกจะใช้เพื่อติดต่อกลับและจัดทำใบเสนอราคาเท่านั้น อ่านเพิ่มเติมที่ <a href="privacy.html" target="_blank" rel="noopener noreferrer" class="font-bold text-brand underline">นโยบายความเป็นส่วนตัว</a></p>
+          <button type="submit" class="w-full rounded-lg bg-brand py-3 text-base font-bold text-white shadow hover:bg-brand-dark disabled:cursor-wait disabled:opacity-60 md:w-auto md:px-8 transition">ส่งข้อมูลขอใบเสนอราคา</button>
+          <p id="form-msg" class="mt-3 text-sm font-medium" role="status"></p>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Map Section ===== -->
+<section id="map" class="mx-auto max-w-6xl px-4 py-8">
+  <div class="rounded-3xl bg-canvas p-5 shadow-xl sm:p-8">
+    <div class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between mb-4">
+      <div>
+        <h2 class="text-2xl font-extrabold text-ink">ที่ตั้งบริษัท STP ENGINEERING SYSTEM</h2>
+        <p class="text-sm text-gray-600">118/57 ม.2 ต.บางเสาธง อ.บางเสาธง จ.สมุทรปราการ 10570</p>
+      </div>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=STP+ENGINEERING+SYSTEM+CO.,+LTD.+บางเสาธง+สมุทรปราการ" target="_blank" rel="noopener noreferrer" class="inline-flex min-h-[44px] items-center justify-center gap-2 rounded-lg bg-brand px-4 text-sm font-bold text-white hover:bg-brand-dark transition">
+        <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-ext"/></svg>
+        เปิดด้วย Google Maps
+      </a>
+    </div>
+    <div class="h-[350px] w-full overflow-hidden rounded-2xl border border-gray-200">
+      <iframe
+        title="แผนที่ STP ENGINEERING SYSTEM"
+        src="https://maps.google.com/maps?q=118/57%20หมู่ที่%202%20ตำบลบางเสาธง%20อำเภอบางเสาธง%20สมุทรปราการ%2010570&amp;z=15&amp;output=embed"
+        class="h-full w-full border-0" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ===== Footer ===== -->
+<footer class="bg-brand-dark py-8 text-white">
+  <div class="mx-auto grid max-w-6xl gap-8 px-4 md:grid-cols-3">
+    <div>
+      <p class="text-lg font-extrabold">STP ENGINEERING SYSTEM CO., LTD.</p>
+      <p class="text-sm text-accent font-medium">บริษัท เอสทีพี เอ็นจิเนียริ่ง ซิสเต็มส์ จำกัด</p>
+      <p class="mt-2 text-xs text-orange-100">เลขประจำตัวผู้เสียภาษี (TAX ID): 0115567014944 (สำนักงานใหญ่)</p>
+      <p class="mt-3 text-xs leading-relaxed text-orange-100/90">
+        บริการออกแบบ เขียนโปรแกรม PLC &amp; HMI ประกอบตู้คอนโทรลไฟฟ้า และผลิต Jig &amp; Fixtures ครบวงจรสำหรับภาคอุตสาหกรรม
+      </p>
+    </div>
+    <address class="space-y-2 text-sm not-italic">
+      <p class="flex gap-2"><svg class="h-5 w-5 shrink-0 text-accent" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-pin"/></svg>118/57 ม.2 ต.บางเสาธง อ.บางเสาธง จ.สมุทรปราการ 10570</p>
+      <p class="flex gap-2"><svg class="h-5 w-5 shrink-0 text-accent" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-phone"/></svg><a href="tel:0847667361" rel="nofollow" class="hover:underline">084-766-7361</a>, <a href="tel:0970152627" rel="nofollow" class="hover:underline">097-015-2627</a></p>
+      <p class="flex gap-2"><svg class="h-5 w-5 shrink-0 text-accent" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-mail"/></svg><a href="#" class="safe-email hover:underline" data-user="stp.engineer99" data-domain="gmail.com">stp.engineer99 [at] gmail.com</a></p>
+    </address>
+    <div class="text-sm">
+      <p class="flex gap-2 mb-2"><svg class="h-5 w-5 shrink-0 text-accent" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-clock"/></svg>จันทร์ – เสาร์ 08:00 – 17:00 น.</p>
+      <p class="text-xs text-orange-100 mb-4">ให้บริการงานระบบ Automation ในเขตสมุทรปราการ กรุงเทพฯ และพื้นที่ภาคอุตสาหกรรมทั่วประเทศ</p>
+      <a href="https://line.me/ti/p/H2IRRuJENo" target="_blank" rel="noopener noreferrer" class="inline-flex min-h-[44px] items-center gap-2 rounded-lg bg-[#06C755] px-4 py-2.5 text-sm font-bold text-white hover:opacity-95 transition shadow">
+        <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#i-chat"/></svg>
+        <span>เพิ่มเพื่อน LINE (ปรึกษางาน)</span>
+      </a>
+    </div>
+  </div>
+  <div class="mt-8 border-t border-white/10 pt-4 text-center text-xs text-orange-100">&copy; <span id="year">2026</span> STP ENGINEERING SYSTEM CO., LTD. All rights reserved. · <a href="privacy.html" class="underline hover:text-white">นโยบายความเป็นส่วนตัว</a></div>
+</footer>
+
+<script>
+'use strict';
+
+const PAGE_LOAD_TIME = Date.now();
+
+// 1. Email Obfuscation Protection
+document.querySelectorAll('.safe-email').forEach(function(el) {
+  const u = el.dataset.user;
+  const d = el.dataset.domain;
+  if (u && d) {
+    const addr = u + '@' + d;
+    el.href = 'mailto:' + addr;
+    el.textContent = addr;
+  }
+});
+
+// 2. Portfolio Categories & Items
+const CATEGORIES = [
+  { id: 'all', label: 'ผลงานทั้งหมด' },
+  { id: 'plc', label: 'ระบบ PLC & HMI' },
+  { id: 'panel', label: 'ตู้คอนโทรลไฟฟ้า' },
+  { id: 'jig', label: 'Jig & Fixtures' }
+];
+
+const FALLBACK_SVG = 'data:image/svg+xml;charset=utf-8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500"%3E%3Crect width="800" height="500" fill="%23e8491a"/%3E%3Ctext x="400" y="260" font-family="sans-serif" font-size="36" font-weight="bold" fill="white" text-anchor="middle"%3ESTP Automation System%3C/text%3E%3C/svg%3E';
+
+const ITEMS = [
+  {
+    cat: 'plc',
+    serviceValue: 'PLC Programming & HMI Design',
+    title: 'งานเขียนโปรแกรม PLC & HMI Control System',
+    desc: 'ออกแบบหน้าจอ HMI ภาษาไทย เซ็ตค่าระบบ Automation และควบคุมการทำงานของสายการผลิต',
+    image: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80',
+    tag: 'PLC & HMI'
+  },
+  {
+    cat: 'panel',
+    serviceValue: 'Electrical Control Panel (ตู้ไฟควบคุมเครื่องจักร)',
+    title: 'ประกอบและ Wiring ตู้คอนโทรลควบคุมเครื่องจักร',
+    desc: 'จัดสายไฟเป็นระเบียบตามมาตรฐานวิศวกรรม ติดตั้งอุปกรณ์ตัดต่อไฟ Safety ครบชุด',
+    image: 'https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=800&q=80',
+    tag: 'Control Panel'
+  },
+  {
+    cat: 'jig',
+    serviceValue: 'Jig & Fixture Design & Fabrication',
+    title: 'ออกแบบและสร้าง Jig & Fixture จับยึดชิ้นงาน',
+    desc: 'อุปกรณ์ช่วยประกอบและจับยึดชิ้นงานความแม่นยำสูง สำหรับไลน์ผลิตโรงงานอุตสาหกรรม',
+    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80',
+    tag: 'Jig & Fixtures'
+  },
+  {
+    cat: 'plc',
+    serviceValue: 'ซ่อมบำรุง / ติดตั้ง / Modify ระบบเดิม',
+    title: 'Modify และ Upgrade ระบบควบคุมเครื่องจักรเดิม',
+    desc: 'เปลี่ยนระบบ Relay เก่าเป็น PLC เพิ่มความเสถียรและรองรับการทำงานแบบอัตโนมัติ',
+    image: 'https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&w=800&q=80',
+    tag: 'Automation'
+  },
+  {
+    cat: 'panel',
+    serviceValue: 'Building Electrical Panel (ตู้ไฟอาคาร)',
+    title: 'ตู้ควบคุมระบบไฟฟ้าอาคาร และ Main Distribution Panel',
+    desc: 'ออกแบบและติดตั้งตู้จ่ายไฟโรงงาน พร้อมระบบป้องกันไฟเกินและระบบความปลอดภัย',
+    image: 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80',
+    tag: 'Electrical Panel'
+  }
+];
+
+const TAB_ON = 'rounded-full px-5 py-2 text-sm font-bold transition bg-brand text-white';
+const TAB_OFF = 'rounded-full px-5 py-2 text-sm font-bold transition bg-white text-ink border border-gray-200 hover:bg-gray-100';
+
+let active = 'all';
+
+function el(tag, className, text) {
+  const node = document.createElement(tag);
+  if (className) node.className = className;
+  if (text) node.textContent = text;
+  return node;
+}
+
+function renderTabs() {
+  const tabs = document.getElementById('tabs');
+  tabs.replaceChildren(...CATEGORIES.map(c => {
+    const btn = el('button', active === c.id ? TAB_ON : TAB_OFF, c.label);
+    btn.type = 'button';
+    btn.setAttribute('aria-pressed', String(active === c.id));
+    btn.addEventListener('click', () => setCat(c.id));
+    return btn;
+  }));
+}
+
+function renderGrid() {
+  const list = active === 'all' ? ITEMS : ITEMS.filter(i => i.cat === active);
+  const serviceSelect = document.getElementById('f-service');
+
+  document.getElementById('grid').replaceChildren(...list.map(item => {
+    const card = el('article', 'overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-md transition hover:-translate-y-1 hover:shadow-xl');
+
+    const media = el('div', 'relative aspect-[16/10] bg-gray-100 overflow-hidden');
+    const img = el('img', 'h-full w-full object-cover transition duration-300 hover:scale-105');
+    img.src = item.image;
+    img.alt = item.title;
+    img.loading = 'lazy';
+    img.onerror = function() { this.src = FALLBACK_SVG; };
+    media.append(img, el('span', 'absolute left-3 top-3 rounded-full bg-brand px-3 py-1 text-xs font-bold text-white shadow', item.tag));
+
+    const body = el('div', 'p-5');
+    const cta = el('a', 'mt-4 inline-flex w-full items-center justify-center rounded-lg border border-brand py-2 text-sm font-bold text-brand hover:bg-brand hover:text-white transition', 'ปรึกษางานวิศวกร');
+    cta.href = '#contact';
+    cta.addEventListener('click', () => {
+      if (serviceSelect && item.serviceValue) {
+        serviceSelect.value = item.serviceValue;
+      }
+    });
+
+    body.append(
+      el('h3', 'text-lg font-extrabold text-ink', item.title),
+      el('p', 'mt-2 text-sm leading-relaxed text-gray-600', item.desc),
+      cta
+    );
+
+    card.append(media, body);
+    return card;
+  }));
+}
+
+function setCat(id) {
+  active = id;
+  renderTabs();
+  renderGrid();
+}
+
+/* Form Validation & Multi-Layer Anti-Spam Security */
+const form = document.getElementById('quote-form');
+const msg = document.getElementById('form-msg');
+const submitBtn = form.querySelector('button[type="submit"]');
+
+function showMsg(text, ok) {
+  msg.className = 'mt-3 text-sm font-medium ' + (ok ? 'text-green-700' : 'text-red-600');
+  msg.textContent = text;
+}
+
+function validate(f) {
+  const honeypot = f.get('bot-field');
+  if (honeypot) return 'spam_detected';
+
+  if (Date.now() - PAGE_LOAD_TIME < 2500) {
+    return 'กรุณารอสักครู่แล้วลองใหม่อีกครั้ง';
+  }
+
+  const name = (f.get('name') || '').trim();
+  const phone = (f.get('phone') || '').replace(/[\s-]/g, '');
+  const email = (f.get('email') || '').trim();
+  const details = (f.get('details') || '').trim();
+
+  if (!name || !phone) return 'กรุณากรอกชื่อผู้ติดต่อและเบอร์โทรศัพท์';
+  if (!/^(\+66|0)[689]\d{8}$/.test(phone) && !/^0\d{8,9}$/.test(phone)) {
+    return 'รูปแบบเบอร์โทรศัพท์ไม่ถูกต้อง (เช่น 081-234-5678)';
+  }
+  if (email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+    return 'รูปแบบอีเมลไม่ถูกต้อง';
+  }
+
+  const urlCount = (details.match(/https?:\/\//gi) || []).length;
+  if (urlCount > 2 || /\b(casino|crypto|viagra|porn)\b/i.test(details)) {
+    return 'spam_detected';
+  }
+
+  return '';
+}
+
+form.addEventListener('submit', async e => {
+  e.preventDefault();
+  const f = new FormData(form);
+  const error = validate(f);
+
+  if (error === 'spam_detected') {
+    submitBtn.disabled = true;
+    msg.className = 'mt-3 text-sm font-medium text-brand';
+    msg.textContent = 'กำลังส่งข้อมูล...';
+    await new Promise(r => setTimeout(r, 1200));
+    form.reset();
+    showMsg('ส่งข้อมูลเรียบร้อยแล้ว ขอบคุณครับ', true);
+    submitBtn.disabled = false;
+    return;
+  }
+
+  if (error) {
+    showMsg(error, false);
+    return;
+  }
+
+  submitBtn.disabled = true;
+  msg.className = 'mt-3 text-sm font-medium text-brand';
+  msg.textContent = 'กำลังส่งข้อมูล...';
+
+  try {
+    if (window.location.protocol.startsWith('http')) {
+      const res = await fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams(f).toString()
+      });
+      if (!res.ok) throw new Error(res.status);
+    } else {
+      await new Promise(r => setTimeout(r, 600));
+    }
+    form.reset();
+    showMsg('ส่งข้อมูลเรียบร้อยแล้ว ขอบคุณครับ วิศวกรจะติดต่อกลับโดยเร็วที่สุด', true);
+  } catch {
+    showMsg('ส่งข้อมูลไม่สำเร็จ กรุณาลองใหม่ หรือโทร 084-766-7361 / ทัก LINE', false);
+  } finally {
+    submitBtn.disabled = false;
+  }
+});
+
+document.getElementById('year').textContent = new Date().getFullYear();
+
+renderTabs();
+renderGrid();
+</script>
+
+</body>
+</html>
